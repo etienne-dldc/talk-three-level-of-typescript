@@ -1,5 +1,7 @@
-// 2
+// 1
 
-export function thisIsAFunction() {
-  return "this is a function";
-}
+/**
+ * Hi this is a test file
+ */
+
+export {};

@@ -1,5 +1,6 @@
 {
   "github.copilot.editor.enableCodeActions": false,
   "github.copilot.editor.enableAutoCompletions": false,
-  "editor.lightbulb.enabled": "off"
+  "editor.lightbulb.enabled": "off",
+  "editor.suggestOnTriggerCharacters": false
 }

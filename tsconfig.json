@@ -9,6 +9,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "moduleDetection": "force",
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node16"
   }
