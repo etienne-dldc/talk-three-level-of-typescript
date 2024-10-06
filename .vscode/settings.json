@@ -15,6 +15,9 @@
     "markdown.preview.fontSize": 30,
     "editor.fontSize": 30,
     "editor.lineHeight": 1.4,
-    "explorer.sortOrder": "default"
+    "explorer.sortOrder": "default",
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.editor.enableAutoCompletions": false,
+    "editor.lightbulb.enabled": "off"
   }
 }
