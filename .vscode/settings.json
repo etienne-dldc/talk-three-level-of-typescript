@@ -1,6 +1,20 @@
 {
-  "github.copilot.editor.enableCodeActions": false,
-  "github.copilot.editor.enableAutoCompletions": false,
-  "editor.lightbulb.enabled": "off",
-  "editor.suggestOnTriggerCharacters": false
+  "slides.folder": "src/slides",
+  "slides.previewMarkdownFiles": true,
+  "markdown.preview.fontSize": 30,
+  "explorer.sortOrder": "default",
+  "slides.vscodeSettings": {
+    "workbench.colorTheme": "Default Light Modern",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.shell.osx": "/bin/fish",
+    "terminal.integrated.fontWeight": "600",
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontSize": 30,
+    "markdown.preview.fontSize": 30,
+    "editor.fontSize": 30,
+    "editor.lineHeight": 1.4,
+    "explorer.sortOrder": "default"
+  }
 }
