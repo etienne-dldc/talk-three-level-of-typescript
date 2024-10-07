@@ -1,5 +1,6 @@
 // TypeScript n'exécute pas le code !
 
-while (true) {
+const oui = true;
+while (oui) {
   continue;
 }

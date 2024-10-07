@@ -20,4 +20,13 @@
     "github.copilot.editor.enableAutoCompletions": false,
     "editor.lightbulb.enabled": "off"
   }
+  // "workbench.colorCustomizations": {
+  //   "editorCursor.background": "#ffffff",
+  //   "editorCursor.foreground": "#0000bb",
+  //   "editor.lineHighlightBackground": "#0e121b15",
+  //   "editor.selectionBackground": "#aaeeff",
+  //   "editorError.background": "#ff000050",
+  //   "editorError.foreground": "#fe0101",
+  //   "editorError.border": "#fe0101"
+  // }
 }
