@@ -1,5 +1,5 @@
 /**
- * Exemple 2: Typer les routes et réponses d'une API
+ * Exemple 2: Typer les routes et réponses de l'API
  */
 
 import { api } from "../implem/safe-api-path";

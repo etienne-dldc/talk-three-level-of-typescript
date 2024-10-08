@@ -1,5 +1,5 @@
 /**
- * Exemple 1: Typer les données de réponse d'une API
+ * Exemple 1: Réutiliser le type de réponse de l'API
  */
 import { api } from "../implem/safe-api";
 
