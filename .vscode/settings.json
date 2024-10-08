@@ -18,7 +18,8 @@
     "explorer.sortOrder": "default",
     "github.copilot.editor.enableCodeActions": false,
     "github.copilot.editor.enableAutoCompletions": false,
-    "editor.lightbulb.enabled": "off"
+    "editor.lightbulb.enabled": "off",
+    "typescript.inlayHints.parameterNames.enabled": "none"
   }
   // "workbench.colorCustomizations": {
   //   "editorCursor.background": "#ffffff",
