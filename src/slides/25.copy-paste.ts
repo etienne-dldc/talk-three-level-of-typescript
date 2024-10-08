@@ -4,24 +4,29 @@
 
 import { api } from "../implem/api-base";
 
+const userResponse: UserResponse = await api("/user");
+
+console.log(`Api version id ${userResponse.apiVersion}`);
+console.log(`Request took ${userResponse.responseTime}ms`);
+console.log(`User id is ${userResponse.data.id}`);
+
+const postsResponse: PostsResponse = await api("/posts");
+
+// API response types
+
 export interface UserResponse {
   responseTime: number;
   apiVersion: string;
   data: User;
 }
 
-export interface PostResponse {
+export interface PostsResponse {
   responseTime: number;
   apiVersion: string;
   data: Post[];
 }
 
-const userResponse: UserResponse = await api("/user");
-
-console.log(`Api version id ${userResponse.apiVersion}`);
-console.log(`User id is ${userResponse.data.id}`);
-
-// types
+// Data types
 
 interface User {
   id: string;

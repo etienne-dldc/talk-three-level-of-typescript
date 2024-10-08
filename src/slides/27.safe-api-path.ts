@@ -8,3 +8,5 @@ const postsResponse = await api("/posts");
 
 console.log(`Api version is ${postsResponse.apiVersion}`);
 console.log(`There are ${postsResponse.data.length} posts`);
+
+const userResponse = await api("/user");

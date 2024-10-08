@@ -1,5 +1,6 @@
 /**
  * Définir un schéma de base de données
+ * (tables et colonnes)
  */
 
 import { Column, Table } from "@dldc/zendb";
