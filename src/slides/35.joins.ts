@@ -1,6 +1,6 @@
 import { Expr } from "@dldc/zendb";
 import { db } from "../implem/db";
-import { schema } from "./33.schema";
+import { schema } from "./32.schema";
 
 const userWithGroup = db.exec(
   schema.users
