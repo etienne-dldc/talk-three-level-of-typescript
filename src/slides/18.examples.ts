@@ -2,23 +2,6 @@
  * Exemple: Algorithme de tricount
  */
 
-interface Expense {
-  description: string;
-  amount: number;
-}
-
-interface User {
-  name: string;
-  expenses: Expense[];
-}
-
-interface TricountResult {
-  name: string;
-  expenses: number;
-  part: number;
-  difference: number;
-}
-
 export function tricount(users: User[]): TricountResult[] {
   const totalByUser: number[] = [];
 
@@ -41,13 +24,23 @@ export function tricount(users: User[]): TricountResult[] {
     const user = users[i];
     const userTotal = totalByUser[i];
     const difference = userTotal - part;
-    result.push({
-      name: user.name,
-      expenses: userTotal,
-      part,
-      difference,
-    });
+    result.push({ name: user.name, difference });
   }
 
   return result;
+}
+
+interface Expense {
+  description: string;
+  amount: number;
+}
+
+interface User {
+  name: string;
+  expenses: Expense[];
+}
+
+interface TricountResult {
+  name: string;
+  difference: number;
 }

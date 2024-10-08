@@ -34,3 +34,8 @@ const paul: Person = {
   firstName: "Paul",
   lastName: "Bocuse",
 };
+
+/**
+ * Le jocker 🃏
+ */
+const mystery: any = {};
