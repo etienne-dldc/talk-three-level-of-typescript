@@ -7,6 +7,11 @@ export interface ApiResponse<T> {
   data: T;
 }
 
+// Type générique sur les fonctions
+export function first<T>(arr: T[]): T | undefined {
+  return arr[0];
+}
+
 // Mapped types pour transformer un type en un autre
 type User = { name: string; email: string };
 type UserGetters = { [K in keyof User]: () => User[K] };

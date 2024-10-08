@@ -18,8 +18,14 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@dldc/zendb": "npm:@jsr/dldc__zendb@^10.0.0",
+    "@dldc/zendb-better-sqlite3": "^7.0.0",
+    "@types/better-sqlite3": "^7.6.11",
     "@types/ws": "^8.5.12",
+    "better-sqlite3": "^11.3.0",
     "chokidar": "^3.5.3",
+    "nanoid": "^5.0.7",
+    "valibot": "1.0.0-beta.0",
     "ws": "^8.18.0"
   },
   "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"

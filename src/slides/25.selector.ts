@@ -1,3 +1,7 @@
+/**
+ * Exemple 3: Typer un hook dans React
+ */
+
 import { useSelector } from "../implem/selector";
 
 export function MyComponent() {

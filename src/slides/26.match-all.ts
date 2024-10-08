@@ -1,6 +1,9 @@
+/**
+ * Exemple 4: Fonction matcher
+ */
 import { matcher } from "../implem/match-all";
 
-function match(value: string) {
+function main(value: string) {
   const matched = matcher(value, {
     num: (val) => matchNum(val),
     star: (val) => matchStar(val),
@@ -11,6 +14,8 @@ function match(value: string) {
     console.log(matched.value.bool);
   }
 }
+
+// Marcher functions
 
 function matchNum(val: string): number | false {
   return Number.isNaN(parseInt(val)) ? false : parseInt(val);
