@@ -2,6 +2,8 @@
  * Typer la response d'une API
  */
 
+import { api } from "../implem/api-base";
+
 export interface UserResponse {
   responseTime: number;
   apiVersion: string;
@@ -14,7 +16,7 @@ export interface PostResponse {
   data: Post[];
 }
 
-const userResponse: UserResponse = (await (await fetch("/user")).json()) as any;
+const userResponse: UserResponse = await api("/user");
 
 console.log(`Api version id ${userResponse.apiVersion}`);
 console.log(`User id is ${userResponse.data.id}`);
