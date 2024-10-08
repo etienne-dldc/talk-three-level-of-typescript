@@ -1,4 +1,4 @@
-// Les limites de la syntax JavaScript
+// Les limites de la syntaxe JavaScript
 
 let price = 42;
 

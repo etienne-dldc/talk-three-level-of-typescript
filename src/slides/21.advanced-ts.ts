@@ -1,4 +1,4 @@
-// Quelques exemples de syntaxe TypeScript plus avancée
+// Quelques exemples de syntaxes TypeScript plus avancées
 // On se rapproche d'un langage à part entière
 
 // Type générique (un peu comme une fonction mais pour les types)

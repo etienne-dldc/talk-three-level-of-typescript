@@ -1,5 +1,5 @@
 /**
- * Type primitifs
+ * Types primitifs
  */
 const answer: number = 42;
 const name: string = "Paul";
