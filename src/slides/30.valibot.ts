@@ -1,5 +1,6 @@
 /**
  * Exemple 1: Valibot pour valider des données
+ * https://valibot.dev/
  */
 
 import * as v from "valibot";
@@ -14,6 +15,7 @@ const userSchema = v.object({
 
 function validateUser(data: any) {
   const user = v.parse(userSchema, data);
+
   user.age.toFixed();
 }
 

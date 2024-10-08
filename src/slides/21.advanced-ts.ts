@@ -1,4 +1,5 @@
 // Quelques exemples de syntaxe TypeScript plus avancée
+// On se rapproche d'un langage à part entière
 
 // Type générique (un peu comme une fonction mais pour les types)
 export interface ApiResponse<T> {
@@ -7,10 +8,11 @@ export interface ApiResponse<T> {
   data: T;
 }
 
-// Type générique sur les fonctions
-export function first<T>(arr: T[]): T | undefined {
-  return arr[0];
-}
+// Fonction avec un type générique
+export type First = <T>(arr: T[]) => T | undefined;
+
+// Extraire les propriétés d'un type
+type Keys = keyof User;
 
 // Mapped types pour transformer un type en un autre
 type User = { name: string; email: string };
@@ -18,7 +20,3 @@ type UserGetters = { [K in keyof User]: () => User[K] };
 
 // Ternaires (if / else) dans les types
 type IsString<T> = T extends string ? "yes" : "no";
-
-// Infer pour récupérer le type d'une fonction
-type UserResponse = ApiResponse<User>;
-type InferedUser = UserResponse extends ApiResponse<infer T> ? T : never;

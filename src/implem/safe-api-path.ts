@@ -11,3 +11,24 @@ export function createApi<Routes extends Record<string, any>>() {
     return {} as any;
   };
 }
+
+export interface ApiRoutes {
+  "/user": User;
+  "/posts": Post[];
+}
+
+export const api = createApi<ApiRoutes>();
+
+// types
+
+interface User {
+  id: string;
+  firstName: string;
+  lastName: string;
+}
+
+interface Post {
+  id: string;
+  title: string;
+  body: string;
+}
