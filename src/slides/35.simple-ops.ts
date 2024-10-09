@@ -1,5 +1,5 @@
 import { db } from "../implem/db";
-import { schema } from "./32.schema";
+import { schema } from "./34.schema";
 
 const inserted = db.exec(
   schema.users.insert({
